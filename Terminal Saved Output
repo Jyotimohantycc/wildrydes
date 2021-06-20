@@ -1,0 +1,76 @@
+Last login: Sun Jan 17 14:14:41 on ttys000
+sujay@Sujays-MacBook-Pro ~ % cd ~/Downloads 
+sujay@Sujays-MacBook-Pro Downloads % ssh -i assignment2.pem ubuntu@3.89.104.53
+Welcome to Ubuntu 18.04.5 LTS (GNU/Linux 5.4.0-1029-aws x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Sun Jan 17 08:46:52 UTC 2021
+
+  System load:  0.0               Processes:           96
+  Usage of /:   27.7% of 7.69GB   Users logged in:     0
+  Memory usage: 27%               IP address for eth0: 172.31.25.169
+  Swap usage:   0%
+
+ * Introducing self-healing high availability clusters in MicroK8s.
+   Simple, hardened, Kubernetes for production, from RaspberryPi to DC.
+
+     https://microk8s.io/high-availability
+
+ * Canonical Livepatch is available for installation.
+   - Reduce system reboots and improve kernel security. Activate at:
+     https://ubuntu.com/livepatch
+
+26 packages can be updated.
+0 updates are security updates.
+
+Failed to connect to https://changelogs.ubuntu.com/meta-release-lts. Check your Internet connection or proxy settings
+
+
+*** System restart required ***
+Last login: Sun Jan 17 08:45:02 2021 from 103.200.105.35
+ubuntu@ip-172-31-25-169:~$ sudo cp -r docproc-new /opt
+ubuntu@ip-172-31-25-169:~$ sudo chown ubuntu:ubuntu -R /opt
+ubuntu@ip-172-31-25-169:~$ cd /opt/docproc-new
+ubuntu@ip-172-31-25-169:/opt/docproc-new$ ls
+api  db.sqlite3  docproc  manage.py
+ubuntu@ip-172-31-25-169:/opt/docproc-new$ cd api/
+ubuntu@ip-172-31-25-169:/opt/docproc-new/api$ ls
+__init__.py   admin.py   apps.py     models.py   tests.py  views.pyc
+__init__.pyc  admin.pyc  migrations  models.pyc  views.py
+ubuntu@ip-172-31-25-169:/opt/docproc-new/api$ nano views.py
+Use "fg" to return to nano.
+
+[1]+  Stopped                 nano views.py
+ubuntu@ip-172-31-25-169:/opt/docproc-new/api$ vi views.py
+
+[2]+  Stopped                 vi views.py
+ubuntu@ip-172-31-25-169:/opt/docproc-new/api$ vi views.py
+ubuntu@ip-172-31-25-169:/opt/docproc-new/api$ nano views.py
+
+  GNU nano 2.9.3                       views.py                       Modified  
+
+from botocore.exceptions import ClientError
+from boto3.dynamodb.conditions import Key, Attr
+import json
+import boto3
+import datetime
+
+
+dynamodb = boto3.resource('dynamodb', region_name='us-east-1')
+s3_target_bucket = 'target-bucket-assignment2'
+
+
+# *****************************************************************************$
+# Below methods are the handlers for the web http endpoint
+# *****************************************************************************$
+#This is the main method that is mapped to the URI (in urls.py)
+#CSRF is needed for the SNS to make a call from another domain
+@csrf_exempt
+def message(request):
+    print '*********************** Incoming request ***************************$
+
+^G Get Help  ^O Write Out ^W Where Is  ^K Cut Text  ^J Justify   ^C Cur Pos
+^X Exit      ^R Read File ^\ Replace   ^U Uncut Text^T To Linter ^_ Go To Line

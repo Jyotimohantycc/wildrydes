@@ -1,0 +1,150 @@
+
+Jyoti-at-857630260271
+HNuREtdDbWXsgoTouAJngGhrcRUl6gI3tVW4nWW4ts4=
+
+
+Https ; https://git-codecommit.us-east-1.amazonaws.com/v1/repos/wildrydes-site
+hhtps(GRC) :codecommit::us-east-1://wildrydes-site
+ssh://git-codecommit.us-east-1.amazonaws.com/v1/repos/wildrydes-site
+
+https://git-codecommit.us-east-1.amazonaws.com/v1/repos/wildrydes-site
+
+cd wildrydes-site/aws s3cps3://wildrydes-us-east-1/WebApplication/1_StaticWebHosting/website ./ --recursive
+
+
+b. Commit the files to your Git service
+$ git add .
+$ git commit -m 'new'
+$ git push
+
+Counting objects: 95, done.
+Compressing objects: 100% (94/94), done.
+Writing objects: 100% (95/95), 9.44 MiB | 14.87 MiB/s, done.
+Total 95 (delta 2), reused 0 (delta 0)
+To https://git-codecommit.us-east-1.amazonaws.com/v1/repos/wildrydes-site
+* [new branch] master -> master
+
+cat.txt
+-------
+The domestic cat (Felis catus or Felis silvestris catus) is a small, usually furry, domesticated, and carnivorous mammal.
+
+
+aws s3 sync s3://wildrydes-us-east-1/WebApplication/1_StaticWebHosting/website s3://wildrydes-jyoti-mohanty --region us-east-1
+
+http://wildrydes-jyoti-mohanty.s3-website-us-east-1.amazonaws.com : end point
+
+cd wildrydes-site
+/aws s3 cp s3://wildrydes-us-east-1/WebApplication/1_StaticWebHosting/website ./ --recursive
+
+cd wildrydes-site/aws s3 cp s3://wildrydes-us-east-1/WebApplication/1_StaticWebHosting/website ./ --recursive
+
+
+https://git-codecommit.ap-south-1.amazonaws.com/v1/repos/wildryde-sites1
+
+cd wildrydes-site1 /aws s3 cp s3://wildrydes-us-east-1/WebApplication/1_StaticWebHosting/website ./ --recursive
+-------------
+To install git brew - /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+https://git-codecommit.us-east-1.amazonaws.com/v1/repos/wildrydes-site
+
+IAM -
+HTTPS Git credentials for AWS CodeCommit
+
+jyoti-at-857630260271
+wotDVxLDe6byNRaCMGFFkAbaXnn5IayzGnH0DscjGC0=
+---
+git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/wildrydes-site
+git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/wildrydes-site
+
+aws configure
+
+
+
+https://git-codecommit.us-east-1.amazonaws.com/v1/repos/wildrydes-site
+
+to resolve -403 :   git config --global credential.UseHttpPath true
+
+--------------
+IAM :
+AKIA4PLV7HQXTQ4JPXHN
+7TzvfJfVu7ykq60INx4O3fL4N8NX5rgkvi1dThcz
+
+-----
+https :
+Jyoticodecommit-at-857630260271
+V1k7vUmWz/FyKpp+LJivxkJOyjvHut/ohM/eJty0UeE=
+
+git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/wildrydes-site
+https://git-codecommit.us-east-1.amazonaws.com/v1/repos/wildrydes-site
+
+----
+API user - AKIA4PLV7HQXW7HWOF4G
+9p9l4UYmeI8veKeWp0Bdfph0CnGTfm8FpTk7idm2
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+n MAC, if above-mentioned tricks don't work, do the following:
+
+Open Keychain Access
+Search for CodeCommit. You should find this:
+enter image description here
+
+Select 'git-codecommit....' and press delete
+Confirm the delete.
+---------
+f you already have the CLI installed and configured, you can use it to copy the necessary web assets from s3://wildrydes-us-east-1/WebApplication/1_StaticWebHosting/website to your bucket.
+
+Execute the following command making sure to replace YOUR_BUCKET_NAME with the name you used in the previous section and YOUR_BUCKET_REGION with the region code (e.g. us-east-2) where you created your bucket.
+
+aws s3 sync s3://wildrydes-us-east-1/WebApplication/1_StaticWebHosting/website s3://YOUR_BUCKET_NAME --region YOUR_BUCKET_REGION
+If the command was successful, you should see a list of objects that were copied to your bucket.
+
+aws s3 sync s3://wildrydes-us-east-1/WebApplication/1_StaticWebHosting/website s3://wildrydes-jyoti-mohanty --region us-east-1
+
+S3 - http://wildrydes-jyoti-mohanty.s3-website-us-east-1.amazonaws.com
+
+https://main.d24aeggtm0c6ry.amplifyapp.com/ - web app
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
